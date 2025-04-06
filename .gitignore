@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+
+# Data
+*.h5
+*.pkl
+*.npy
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Exceptions (keep these)
+!model/solver.h5  # Keep pretrained model
