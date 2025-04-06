@@ -1,0 +1,1 @@
+# NeuroQuadra-AI-powered-Quadratic-Equation-Solver
