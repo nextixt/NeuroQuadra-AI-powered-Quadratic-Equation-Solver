@@ -3,8 +3,8 @@
 ## 🚀 Upcoming Features
 | Feature                | Status       | Target Release |
 |------------------------|--------------|----------------|
-| Complex roots support  | Planned      | v1.2 (Q3 2024) |
-| Web interface (Streamlit) | In Progress | v1.1 (Q2 2024) |
+| Complex roots support  | Planned      | v1.2 (2025) |
+| Web interface (Streamlit) | In Progress | v1.1 (2025) |
 | API for equation solving | Researching | v2.0 (2025)    |
 
 ## ✅ Completed
