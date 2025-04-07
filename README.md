@@ -8,10 +8,10 @@ An AI-powered neural network that solves quadratic equations (**`ax² + bx + c =
 ## ✨ Features  
 - 🧠 **Pre-trained model**: Accuracy ~95% on real roots  
 - 📊 **Graphs**: Plotting equations via Matplotlib  
-- 🚀 **Easy setup**: Run with `python app.py`  
+- 🚀 **Easy setup**: Run with `python model.py`  
 
 ## ⚡ Quick Start  
 ```bash
 git clone https://github.com/yourusername/neuroquadra.git  
 pip install -r requirements.txt  
-python app.py  
+python model.py  
