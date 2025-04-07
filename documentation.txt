@@ -1,0 +1,39 @@
+Basic example
+
+from quadratic_solver import QuadraticSolver
+
+# Load model
+solver = QuadraticSolver() # or QuadraticSolver("path/to/model.h5")
+
+# Solve equation
+roots = solver.solve(1, -3, 2) # x² - 3x + 2 = 0
+print(f"Roots: {roots}") # (2.0, 1.0)
+# Plot
+solver.plot_equation(1, -3, 2)
+
+
+📚 Detailed documentation
+QuadraticSolver class
+
+QuadraticSolver(model_path: Optional[str] = None)
+model_path - path to .h5 model file (if None, loads built-in)
+
+ 
+Methods:                                             Method Description:
+  
+.solve(a, b, c) → Tuple[float, float]                Returns roots equations
+.plot_equation(a, b, c, save_path=None)              Draws a graph
+.train(epochs=200, samples=50_000, save_dir=None)    Trains a new model                                    
+
+  
+🛠 For developers
+How to train your model?
+
+from quadratic_solver import QuadraticSolver
+
+# Train with custom parameters
+solver = QuadraticSolver.train(
+epochs=500,
+samples=100_000,
+save_dir="custom_model"
+)
