@@ -13,5 +13,3 @@
 ## 🔄 Under Discussion
 - Mobile app integration
 - GPU-accelerated training
-
-[View active issues](https://github.com/nextixt/neuroquadra/issues)
