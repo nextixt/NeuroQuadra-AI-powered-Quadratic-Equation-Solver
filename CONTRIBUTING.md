@@ -5,7 +5,7 @@
 2. Clone:
    ```bash
    git clone https://github.com/nextixt/NeuroQuadra-AI-powered-Quadratic-Equation-Solver.git
-   cd neuroquadra
+   cd NeuroQuadra-AI-powered-Quadratic-Equation-Solver
 💻 Code Rules
 Follow PEP 8
 
